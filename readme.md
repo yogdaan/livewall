@@ -9,4 +9,22 @@ Example command
 livewall -ov -ni -fs -- mpv -wid WID --keepaspect=no --loop PATH-OF.gif 
 
 ```
+Dependencies required :-
+
+```
+xorg-dev
+build-essential
+libx11-dev
+x11proto-xext-dev
+libxrender-dev
+libxext-dev 
+
+```
+
+Command that will do the work 
+
+```
+sudo apt-get install xorg-dev build-essential libx11-dev x11proto-xext-dev libxrender-dev libxext-dev
+
+```
 
