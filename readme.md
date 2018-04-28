@@ -12,16 +12,16 @@ livewall -ov -ni -fs -- mpv -wid WID --keepaspect=no --loop PATH-OF.gif
 Dependencies required :-
 
 ```
-xorg-dev
-build-essential
-libx11-dev
-x11proto-xext-dev
-libxrender-dev
-libxext-dev 
+1) xorg-dev
+2) build-essential
+3) libx11-dev
+4) x11proto-xext-dev
+5) libxrender-dev
+6) libxext-dev 
 
 ```
 
-Command that will do the work 
+Following command will install the dependencies 
 
 ```
 sudo apt-get install xorg-dev build-essential libx11-dev x11proto-xext-dev libxrender-dev libxext-dev
